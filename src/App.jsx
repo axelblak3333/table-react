@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          <Route path="/table-react/dist/" element={<MainPage />} />
         </Routes>
       </Router>
     </div>
