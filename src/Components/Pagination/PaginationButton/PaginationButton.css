@@ -1,0 +1,21 @@
+.pagination_button {
+    height: 48px;
+    width: 48px;
+    background: #101112;
+    color: #C0C4CC;
+    border-radius: 8px;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.pagination_button.active {
+    background: #FF4D00;
+    color: white;
+}
+
+.image_rotate_180{
+    rotate: 180deg;
+}

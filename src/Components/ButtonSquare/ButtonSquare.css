@@ -1,0 +1,10 @@
+.button_square {
+    background: #18191a;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}

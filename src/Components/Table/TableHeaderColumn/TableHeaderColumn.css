@@ -1,0 +1,21 @@
+.table_header_col {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.table_header_col .table_header_col_sort {
+    cursor: pointer;
+    width: 9px;
+    margin-right: 3px;
+}
+
+.table_header_col.type_sort_2 .table_header_col_sort {
+    rotate: 180deg;
+}
+
+img.table_header_col_has_info {
+    margin-left: 8px;
+    width: 13px;
+    cursor: pointer;
+}

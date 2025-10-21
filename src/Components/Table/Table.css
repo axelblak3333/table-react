@@ -1,0 +1,7 @@
+.table {
+    margin-top: 43px;
+}
+
+.table_rows_col, .table_header_col {
+    width: 12%;
+}

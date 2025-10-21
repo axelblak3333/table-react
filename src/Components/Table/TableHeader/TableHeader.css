@@ -1,0 +1,6 @@
+.table_header {
+    color: #5F6166;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 8px;
+}

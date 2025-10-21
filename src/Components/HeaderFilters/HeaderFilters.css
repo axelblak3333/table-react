@@ -1,0 +1,21 @@
+.header_filters {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+}
+
+.header_filters_del {
+    width: 2px;
+    background: #18191A;
+    height: -webkit-fill-available;
+}
+
+.header_filters_buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.header_filters_right {
+    margin-left: auto;
+}

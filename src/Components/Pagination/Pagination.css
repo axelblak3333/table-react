@@ -1,0 +1,16 @@
+.pagination {
+    display: flex;
+    gap: 10px;
+}
+
+.pagination_info {
+    width: 100%;
+    color: #5F6166;
+}
+
+.pagination_info {
+    width: 100%;
+    color: #5F6166;
+    display: flex;
+    margin: 16px 0 32px;
+}

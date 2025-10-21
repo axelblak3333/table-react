@@ -1,0 +1,17 @@
+.breadcrumbs {
+    display: flex;
+    margin-bottom: 6px;
+    gap: 10px;
+
+    font-size: 14px;
+    line-height: 20px;
+    color: #5F6166;
+}
+
+.breadcrumbs_path:first-child {
+    color: #A8ACB3;
+}
+
+body {
+    background: #050506;
+}

@@ -1,0 +1,61 @@
+.table_row {
+    display: flex;
+    color: #FAFCFF;
+    justify-content: space-around;
+    padding: 14px 8px;
+    background: #101112;
+    border-radius: 8px;
+}
+
+.table_rows_col {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+
+.table_rows_col .lab {
+    width: fit-content;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+.lab img {
+    margin-left: 13px;
+    display: flex;
+    float: right;
+    margin-top: 5.5px;
+    width: 9px;
+}
+
+.lab.active {
+    background: #232426;
+    border: 1px solid white;
+}
+
+.table_rows_col .lab:hover {
+    cursor: pointer;
+    background: #232426;
+}
+
+.table_rows_col_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background: #171818;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.table_rows_col_menu span {
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 100%;
+}
